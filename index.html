@@ -469,8 +469,29 @@
           <p><span class="glyphicon glyphicon-phone"></span> +1 5712395411</p>
           <p><span class="glyphicon glyphicon-envelope"></span> puduo@gmail.com</p>
         </div>
-        <div>
-          <p>hello</p>
+        <div class="col-sm-6">
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Your Role: <select name="role[]" multiple>
+                  <option value="leader">Student</option>
+                  <option value="follower">Client</option>
+                  <option value="follower">Investor</option>
+                </select></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+
         </div>
 
       </div>
