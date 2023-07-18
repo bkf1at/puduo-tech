@@ -9,13 +9,12 @@ body {
   background-size: cover;
 }
 
-
 h2 {
   font-size: 26px;
   text-transform: uppercase;
   color: #303030;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -40,7 +39,7 @@ p{
 }
 
 .align{
-padding-left:120px;
+padding-left:  120px;
 padding-right: 120px;
 }
 
@@ -205,6 +204,14 @@ padding-right: 120px;
 .coin {
   padding-bottom: 50px;
   padding-left: 50px;
+}
+
+.col-sm-4 .glyphicon{
+  padding-right: 15px;
+}
+
+.col-sm-5 .glyphicon{
+  padding-right: 15px;
 }
 
 footer .glyphicon{

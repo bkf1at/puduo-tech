@@ -39,7 +39,7 @@
             </a></li>
           <li><a href="#services">SERVICES</a></li>
           <li><a href="#technologies">TECHNOLOGIES</a></li>
-          <li><a href="#tutorial">TUTORIAL</a></li>
+          <li><a href="#tutorial">TUTORIALS</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
@@ -57,7 +57,7 @@
   <!-- Container (About Section) -->
   <div id="about" class="container-fluid">
     <div class="row">
-      <div class="col-sm-8 align">
+      <div class="col-sm-8 align"><br>
         <h2>Puduo Technologies</h2>
         <p>Puduo Technology is a start up company established by three friends, namely, Naasei, Gabano and Tee.
           Naasei and Lawrence combine about 12 years of experience in Software development, Engineering and Architecture
@@ -121,11 +121,7 @@
           <a><img src="images/values.svg" width="400" height="400" alt="values"></a>
         </div>
       </div><br>
-
     </div><br>
-
-
-  </div>
   </div>
 
 
@@ -133,11 +129,9 @@
   <div id="services dummy" class="container-fluid text-center"></div>
 
   <!-- Container (Services Section) -->
-  <div id="services" class="container-fluid text-center">
+  <div id="services" class="container-fluid text-center"><br>
     <h2>SERVICES</h2>
     <div class="align">
-
-
       <h4>What we do</h4><br>
       <div class="row slideanim">
         <div class="col-sm-3">
@@ -291,7 +285,7 @@
   <!-- Container (Technologies Section) -->
   <div id="technologies" class="container-fluid text-center bg-grey">
     <div class="container-fluid">
-      <div class="row slideanim">
+      <div class="row slideanim"><br>
         <h2>TECHNOLOGIES WE USE</h2>
         <div class="container">
           <div class="row">
@@ -368,7 +362,7 @@
   <div id="tutorial dummy" class="container-fluid text-center"></div>
   <!-- Container (Tutorial Section) -->
   <div id="tutorial" class="container-fluid text-center">
-    <div class="align">
+    <div class="align"><br>
       <h2>Tutorials</h2>
       <h4>How to Design and Code</h4>
       <div class="row text-center slideanim">
@@ -404,20 +398,28 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President,
-              Comment
-              Box</span></h4>
+          <h4>"This company is the best. I am so happy with the result!"<br><span>Yaa Yeboah, Vice President,
+              Comment Box</span></h4>
         </div>
         <div class="item">
-          <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+          <h4>"One word... WOW!!"<br><span>Kweku Manu, Salesman, Rep Inc</span></h4>
         </div>
         <div class="item">
-          <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span>
+          <h4>"Elite training skills....."<br><span>Kwame Frimpong, Cashier, Zabby LLC</span></h4>
+        </div>
+        <div class="item">
+          <h4>"Could I... BE any more happy with this company?"<br><span>Akosua Mansah, Student, FriendsAlot</span>
+          </h4>
+        </div>
+        <div class="item">
+          <h4>"Easiest way to get hands-on coding techniques."<br><span>Adwoa Tawiah, High Schooler, WGTC</span>
           </h4>
         </div>
       </div>
@@ -461,42 +463,47 @@
   <!-- Container (Contact Section) -->
   <div id="contact" class="container-fluid bg-grey">
     <h2 class="text-center">CONTACT</h2>
-    <div class="align">
-      <div class="row">
-        <div class="col-sm-5">
-          <p>Contact us and we'll get back to you within 24 hours.</p>
-          <p><span class="glyphicon glyphicon-map-marker"></span> Atlanta, GA, USA</p>
-          <p><span class="glyphicon glyphicon-phone"></span> +1 5712395411</p>
-          <p><span class="glyphicon glyphicon-envelope"></span> puduo@gmail.com</p>
-        </div>
-        <div class="col-sm-6">
-          <form name="contact" method="POST" data-netlify="true">
-            <p>
-              <label>Your Name: <input type="text" name="name" /></label>
-            </p>
-            <p>
-              <label>Your Email: <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <label>Your Role: <select name="role[]" multiple>
-                  <option value="leader">Student</option>
-                  <option value="follower">Client</option>
-                  <option value="follower">Investor</option>
-                </select></label>
-            </p>
-            <p>
-              <label>Message: <textarea name="message"></textarea></label>
-            </p>
-            <p>
-              <button type="submit">Send</button>
-            </p>
-          </form>
+    <div class="row align">
+      <div class="col-sm-5">
+        <br>
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Atlanta, GA, USA</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +1 5712395411</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> puduo@gmail.com</p>
+        <a><img src="images/contact.svg" width="auto" height="240" alt="contact"></a>
+      </div>
+      <div class="col-sm-7">
+        <form name="contact" method="POST" data-netlify="true">
 
-        </div>
+          <div class="col">
+            <label for="fName">First Name</label>
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <label for="lName">Last Name</label>
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+          <div class="col">
+            <label for="exampleInputEmail">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+              else.</small>
+          </div>
 
+
+          <div>
+            <label for="exampleFormControlTextarea">Send us a message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea" rows="4"></textarea>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </div>
   </div>
+
+
 
 
 
